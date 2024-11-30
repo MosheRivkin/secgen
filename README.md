@@ -3,7 +3,7 @@
 A command-line tool to generate secure random secrets with configurable character sets.
 
 ## Installation
-just download the binary from the [releases]() page and add it to your path.
+just download and extract the binary from the [releases](https://github.com/MosheRivkin/secgen/releases) page and add it to your path.
 
 ## Usage
 
