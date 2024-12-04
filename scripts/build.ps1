@@ -1,12 +1,11 @@
-$version = "v1.0.0"
+$version = "v0.0.1"
 $platforms = @(
-    @{GOOS="windows"; GOARCH="amd64"; Suffix=".exe"},
     @{GOOS="windows"; GOARCH="386"; Suffix=".exe"},
     @{GOOS="linux"; GOARCH="amd64"; Suffix=""},
     @{GOOS="linux"; GOARCH="386"; Suffix=""},
     @{GOOS="darwin"; GOARCH="amd64"; Suffix=""}, 
-    @{GOOS="darwin"; GOARCH="arm64"; Suffix=""}, 
-    @{GOOS="darwin"; GOARCH="universal"; Suffix=""} 
+    @{GOOS="darwin"; GOARCH="arm64"; Suffix=""},
+    @{GOOS="windows"; GOARCH="amd64"; Suffix=".exe"}
 )
 
 if (Test-Path "release") {
